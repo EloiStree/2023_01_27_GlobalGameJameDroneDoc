@@ -46,11 +46,12 @@ Controls :
  Verifiez l'adresse:
  
  IP 192.164.1.104
+ 
  PORT 2509
  
  Les regles du jeu ?
  
- Eviter que votre drone se fasse attraper par la ronce !!!
+ Eviter que votre drone se fasse attraper par la racine !!!
  
  ##############################################################################################################################################################
  
