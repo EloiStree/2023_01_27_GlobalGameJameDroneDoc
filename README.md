@@ -10,7 +10,7 @@ Example of:
 - Window Form interaction : https://github.com/bribri0911/UserDroneGamePlay
 
 Download :
-- itch.io :
+- itch.io : https://you2173.itch.io/drone-roots-of-knowledge
 - Google Play : Coming Soon
 
 Controls :
