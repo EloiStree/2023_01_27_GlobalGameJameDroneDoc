@@ -55,9 +55,10 @@ Controls :
  
  ##############################################################################################################################################################
  
- Credits : 
- - Eloi Stree : Programming, Project Lead
- - Brieux Dupuis : Programming
+##  The team
+![image](https://user-images.githubusercontent.com/20149493/215486964-b219e3c1-88ad-425d-a6a5-ad4614a0f0c3.png)
+ - Eloi Stree : Developer, Project Lead
+ - Brieux Dupuis : Developer
  - Ugo Tronion : 3D Modeling
  
  If you want to use our game in class, don't hesitate to contact us.
