@@ -27,8 +27,7 @@ Controls :
 ![image](https://user-images.githubusercontent.com/74239776/215337678-5db2f3f5-179a-4272-9db8-d432ec0574fd.png)
 
  
- 
- ##############################################################################################################################################################
+ -----------------------------
  
  Pour l'expérience d'aujourd'hui, vous pouvez vous connecter à notre session de jeu grâce à vos appareils (PC et Android uniquement)
  
@@ -53,7 +52,7 @@ Controls :
  
  Eviter que votre drone se fasse attraper par la racine !!!
  
- ##############################################################################################################################################################
+ -----------------------------
  
 ##  The team
 ![image](https://user-images.githubusercontent.com/20149493/215486964-b219e3c1-88ad-425d-a6a5-ad4614a0f0c3.png)
