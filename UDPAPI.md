@@ -64,9 +64,24 @@ string.Format("☠️💊|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    plantnode.startPosition.y,
                    plantnode.startPosition.z,
                     // Where the root node end
-                   plantnode.startPosition.x,
+                   plantnode.endPosition.x,
+                   plantnode.endPosition.y,
+                   plantnode.endPosition.z,
+                   plantnode.startradiussize,
+                   plantnode.radiusSize,
+                   plantnode.timetogrow,
+                   timeMessageSentFromServer);
+                   
+                   
+string.Format("☠️💊📈|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
+                   // Where the root node start
+                   plantnode.startPosition.x, 
                    plantnode.startPosition.y,
                    plantnode.startPosition.z,
+                    // Where the root node end
+                   plantnode.endPosition.x,
+                   plantnode.endPosition.y,
+                   plantnode.endPosition.z,
                    plantnode.startradiussize,
                    plantnode.endradiusSize,
                    plantnode.timetogrow,
@@ -75,7 +90,7 @@ string.Format("☠️💊|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
 ```
 
 // If you don't need visual of the game. You can listene to  Key Point and zone important to the game
-string.Format("🔑🪩|{10}|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
+string.Format("🔑🪩|{1}|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{0}",
                    // Where the root node start
                    plantnode.startPosition.x, 
                    plantnode.startPosition.y,
@@ -86,6 +101,47 @@ string.Format("🔑🪩|{10}|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    timeMessageSentFromServer
                    int value representing the key point of the game. 0 means undefined
                    );
+                   
+// If you don't need visual of the game. You can listen to  Key Point and zone important to the game
+                   string.Format("🔑•|{1}|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{0}",
+                   // Where the root node start
+                   plantnode.startPosition.x, 
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z,
+                   timeMessageSentFromServer,
+                   int value representing the key point of the game. 0 means undefined
+                   );
+                               
+                   string.Format("☠️•|{1} {2} {3} |{0}",
+                   // Where the root node start
+                   plantnode.startPosition.x, 
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z,
+                   timeMessageSentFromServer
+                   
+                   );  
+                   string.Format("☠️••|{0} {1} {2} {4} {5} {6} |{0}",
+                   // Where the root node start
+                   timeMessageSentFromServer,
+                   plantnode.startPosition.x, 
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z,
+                   plantnode.endPosition.x, 
+                   plantnode.endPosition.y,
+                   plantnode.endPosition.z
+                   );
+                   
+                   // Position of a bonus in the game
+                    string.Format("🍰•|{1}|{2} {3} {4}|{0}",
+                   // Where the root node start
+                   timeMessageSentFromServer
+                   bonusId,
+                   plantnode.startPosition.x, 
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z
+                   );
+                   
+                 
 ```
 
 
