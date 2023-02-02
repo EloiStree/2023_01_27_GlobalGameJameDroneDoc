@@ -32,6 +32,7 @@ string.Format("Y✈|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    0f, // angle in ° of estimation of direction in Quaternion 0= exact and 180 we don't know at all
                    time);
 ```
+
 ```
 string.Format("✈|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    playerDrone.localPosition.x, 
@@ -43,10 +44,59 @@ string.Format("✈|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    playerDrone.localRotation.z,
                    playerDrone.localRotation.w,
                    0f, // angle in ° of estimation of direction in Quaternion 0= exact and 180 we don't know at all
-                   time);
+                   timeMessageSentFromServer);
 ```
 With default mode precision is always exacte but to prepare the game to be able to be played by real drone for tournament.
 You can ask the teacher to have less precise feedback.  Contact us for details. 
 The idea: the game is suppose to train you pilote drone in XR and then be able to do the same in real life with random drone.
 As the captor that will send drone information are not precise at all and can't know who is who. The game can be set in "real mode"
 Meaning that you have an estimatoin based on the sensor and you can also don't know what drone is your.
+
+
+
+```
+// If you don't need visual of the game. You can listene to  Key Point and zone to avoid 
+
+// Means there are a death zone in capsule shape that had been created ☠️💊 try to avoid this zone
+string.Format("☠️💊|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
+                   // Where the root node start
+                   plantnode.startPosition.x, 
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z,
+                    // Where the root node end
+                   plantnode.startPosition.x,
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z,
+                   plantnode.startradiussize,
+                   plantnode.endradiusSize,
+                   plantnode.timetogrow,
+                   timeMessageSentFromServer);
+```
+```
+
+// If you don't need visual of the game. You can listene to  Key Point and zone important to the game
+string.Format("🔑🪩|{10}|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
+                   // Where the root node start
+                   plantnode.startPosition.x, 
+                   plantnode.startPosition.y,
+                   plantnode.startPosition.z,
+                   plantnode.startradiussize,
+                   plantnode.endradiusSize,
+                   plantnode.timetogrow,
+                   timeMessageSentFromServer
+                   int value representing the key point of the game. 0 means undefined
+                   );
+```
+
+
+# Drone Roots of knowledge: Monster input
+
+If you want visual input in your game
+
+
+                   
+                   
+
+
+
+
