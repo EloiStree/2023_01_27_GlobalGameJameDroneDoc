@@ -20,7 +20,7 @@ Default port:
 ## You can receive
 
 ```
-string.Format("Y✈|{0} {1} {2} {3} {4} {5} {6} {7} {8} |{9}",
+string.Format("Y✈|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    playerDrone.localPosition.x, 
                    playerDrone.localPosition.y,
                    playerDrone.localPosition.z,
@@ -33,7 +33,7 @@ string.Format("Y✈|{0} {1} {2} {3} {4} {5} {6} {7} {8} |{9}",
                    time);
 ```
 ```
-string.Format("✈|{0} {1} {2} {3} {4} {5} {6} {7} {8} |{9}",
+string.Format("✈|{0} {1} {2} {3} {4} {5} {6} {7} {8}|{9}",
                    playerDrone.localPosition.x, 
                    playerDrone.localPosition.y,
                    playerDrone.localPosition.z,
