@@ -12,6 +12,7 @@ Example of:
 Download :
 - itch.io : https://you2173.itch.io/drone-roots-of-knowledge
 - Google Play : Coming Soon
+- Download all: https://github.com/EloiStree/2023_01_27_GlobalGameJameDroneDoc/releases/tag/V1
 
 Controls :
  - Controler : Use the sticks to control your drone ! The left stick makes your drone move sideways, and the right stick rotates your drone and makes it ascend or descend.
